@@ -1,0 +1,77 @@
+.banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+
+  background: url("img/baner prendido.png") no-repeat center center;
+  background-size: cover;
+  transition: background-image 0.5s ease;
+}
+
+#candle {
+  width: 100px;
+  height: 200px;
+  left: 0%;
+  top: 5%;
+  z-index: 2;
+
+  position: absolute;
+}
+
+#candle:hover + .banner {
+  background-image: url("img/baner libro apagado.png");
+}
+
+.banner-wrapper {
+  width: 100%;
+  height: 100vh;
+
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+
+
+.what-is-explorer-diary {
+  z-index: 2;
+  height: 50%;
+  width: 25%;
+  color: white;
+  position: relative;
+  margin-right: 3rem;
+  text-align: center;
+}
+
+.what-is-explorer-diary p {
+  text-align: start;
+}
+
+
+@media only screen and (max-width: 720px) {
+    .banner {
+        position: relative;
+        height: 200px;
+    }
+
+    .banner-wrapper {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .what-is-explorer-diary {
+        width: 100%;
+        margin: 0;
+        padding: 1rem 2rem;
+    }
+    #candle {
+      width: 100px;
+      height: 100px;
+      left: -10%;
+      top: 13%;
+      z-index: 2;
+      position: absolute;
+  }
+}

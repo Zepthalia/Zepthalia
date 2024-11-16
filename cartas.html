@@ -1,0 +1,1182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zepthalia</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="https://use.typekit.net/zjd4exk.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="zepthalia.html">
+      <img class="logo" src="img/log.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ¿como se juega?
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="jugar.html">¿cómo jugar? </a>
+              <a class="dropdown-item" href="jugar.html#cartas">Personajes y Habilidades </a>
+              <a class="dropdown-item" href="jugar.html#Trampas">Trampas</a>
+              <a class="dropdown-item" href="jugar.html#Energias">Energias</a>
+              <a class="dropdown-item" href="jugar.html#efectos">Efectos</a>
+              <a class="dropdown-item" href="jugar.html#Reglas">Reglas</a>
+              <a class="dropdown-item" href="jugar.html#tablero">Tablero</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="cartas.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              cartas
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <a class="dropdown-item" href="cartas.html#personajes">Personajes</a>
+              <a class="dropdown-item" href="cartas.html#trampas">Trampas</a>
+              <a class="dropdown-item" href="cartas.html#energias">Energías</a>
+            </div>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Diario.html">Diario del explorador</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="comprar.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            comprar
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="comprar.html">Paquetes</a>
+            <a class="dropdown-item" href="#">Apoyanos</a>
+            <a class="dropdown-item" href="#">Contactanos</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+<section id="personajes">
+  <div> <h1 class="tit grande"> Personajes  </h2></div>
+  <section id="termico">
+      <div class="container-lg">
+        <div id="accordionTermico">
+          <div class="card">
+            <div class="card-header" id="headingOneTermico">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOneTermico" aria-expanded="true" aria-controls="collapseOneTermico" class="bajo">
+                    <p class="desplega tit" ><img src="img/energias/termica.png" alt="" class="energia" > TERMICO <span class="material-symbols-outlined">
+                      arrow_drop_down
+                      </span></p>
+                </button>
+              </h5>
+            </div>
+      
+            <div id="collapseOneTermico" class="collapse show" aria-labelledby="headingOneTermico" data-parent="#accordionTermico">
+              <div class="card-body">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-md-2 tm1"><img src="img/termico/caloraptra.png" alt="" class="carta">
+                      <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteTermico1">
+                        + Más
+                      </button>
+                      
+                      <!-- Ventana Emergente -->
+                      <div class="modal fade" id="ventanaEmergenteTermico1" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelTermico1" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title tit h1" id="ventanaEmergenteLabelTermico1">caloraptra</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="container-xs">
+                                <div class="row">
+                                  <div class="col-xs-6">
+                                    <img src="img/termico/caloraptra.png" alt="Imagen 1" class="img-fluid">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>                      
+                    </div>
+                    <div class="col-md-2 tm1"><img src="img/termico/inigma.png" alt=""class="carta">
+                      <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteTermico2">
+                        + Más
+                      </button>
+                      
+                      <!-- Ventana Emergente -->
+                      <div class="modal fade" id="ventanaEmergenteTermico2" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelTermico2" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title tit h1" id="ventanaEmergenteLabelTermico2">inigma</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="container-lg">
+                                <div class="row">
+                                  <div class="col-xs-6">
+                                    <img src="img/termico/inigma.png" alt="Imagen 1" class="img-fluid">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="col-md-2 tm1"><img src="img/termico/IceKeeper.png" alt="" class="carta">
+                      <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteTermico3">
+                        + Más
+                      </button>
+                      
+                      <!-- Ventana Emergente -->
+                      <div class="modal fade" id="ventanaEmergenteTermico3" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelTermico3" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title tit h1" id="ventanaEmergenteLabelTermico3">IceKeeper</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="container-lg">
+                                <div class="row">
+                                  <div class="col-xs-6">
+                                    <img src="img/termico/IceKeeper.png" alt="Imagen 1" class="img-fluid">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="col-md-2 tm1"><img src="img/termico/glaceomante.png" alt="" class="carta">
+                      <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteTermico4">
+                        + Más
+                      </button>
+                      
+                      <!-- Ventana Emergente -->
+                      <div class="modal fade" id="ventanaEmergenteTermico4" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelTermico4" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title tit h1" id="ventanaEmergenteLabelTermico4">glaceomante</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="container-lg">
+                                <div class="row">
+                                  <div class="col-xs-6">
+                                    <img src="img/termico/glaceomante.png" alt="Imagen 1" class="img-fluid">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                    <div class="col-md-2 tm1"><img src="img/termico/Termowhisp.png" alt="" class="carta">
+                      <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteTermico5">
+                        + Más
+                      </button>
+                      
+                      <!-- Ventana Emergente -->
+                      <div class="modal fade" id="ventanaEmergenteTermico5" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelTermico5" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title tit h1" id="ventanaEmergenteLabelTermico5">Thermowisp</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                              <div class="container-lg">
+                                <div class="row">
+                                  <div class="col-xs-6">
+                                    <img src="img/termico/Termowhisp.png" alt="Imagen 1" class="img-fluid">
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div> 
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>   
+</section>
+<section id="acuatico">
+  <div class="container-lg">
+      <div id="accordionAcuatico">
+        <div class="card">
+          <div class="card-header" id="headingOneAcuatico">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOneAcuatico" aria-expanded="true" aria-controls="collapseOneAcuatico" class="bajo">
+                  <p class="desplega tit" ><img src="img/energias/acuatico.png" alt="" class="energia" > ACUATICO <span class="material-symbols-outlined">
+                    arrow_drop_down
+                    </span></p>
+              </button>
+            </h5>
+          </div>
+    
+          <div id="collapseOneAcuatico" class="collapse show" aria-labelledby="headingOneAcuatico" data-parent="#accordionAcuatico">
+            <div class="card-body">
+              <div class="row d-flex justify-content-center">
+                  <div class="col-md-2 tm1"><img src="img/acuatico/anura.png" alt="" class="carta">
+                    <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteAcuatico1">
+                      + Más
+                    </button>
+                    
+                    <!-- Ventana Emergente -->
+                    <div class="modal fade" id="ventanaEmergenteAcuatico1" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelAcuatico1" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title tit h1" id="ventanaEmergenteLabelAcuatico1">anura</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="container-lg">
+                              <div class="row">
+                                <div class="col-xs-6">
+                                  <img src="img/acuatico/anura.png" alt="Imagen 1" class="img-fluid">
+                                </div>
+                             
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>                      
+                  </div>
+                  <div class="col-md-2 tm1"><img src="img/acuatico/Brumanura.png" alt=""class="carta">
+                    <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteAcuatico2">
+                      + Más
+                    </button>
+                    
+                    <!-- Ventana Emergente -->
+                    <div class="modal fade" id="ventanaEmergenteAcuatico2" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelAcuatico2" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title tit h1" id="ventanaEmergenteLabelAcuatico2">Brumanura</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="container-lg">
+                              <div class="row">
+                                <div class="col-xs-6">
+                                  <img src="img/acuatico/Brumanura.png" alt="Imagen 1" class="img-fluid">
+                                </div>
+                              
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="col-md-2 tm1"><img src="img/acuatico/aqualis.png" alt="" class="carta">
+                    <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteAcuatico3">
+                      + Más
+                    </button>
+                    
+                    <!-- Ventana Emergente -->
+                    <div class="modal fade" id="ventanaEmergenteAcuatico3" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelAcuatico3" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title tit h1" id="ventanaEmergenteLabelAcuatico3">aqualis</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="container-lg">
+                              <div class="row">
+                                <div class="col-xs-6">
+                                  <img src="img/acuatico/aqualis.png" alt="Imagen 1" class="img-fluid">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="col-md-2 tm1"><img src="img/acuatico/coralisca.png" alt="" class="carta">
+                    <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteAcuatico4">
+                      + Más
+                    </button>
+                    
+                    <!-- Ventana Emergente -->
+                    <div class="modal fade" id="ventanaEmergenteAcuatico4" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelAcuatico4" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title tit h1" id="ventanaEmergenteLabelAcuatico4">coralisca</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="container-lg">
+                              <div class="row">
+                                <div class="col-xs-6">
+                                  <img src="img/acuatico/coralisca.png" alt="Imagen 1" class="img-fluid">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
+                  <div class="col-md-2 tm1"><img src="img/acuatico/luminocasea.png" alt="" class="carta">
+                    <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteAcuatico5">
+                      + Más
+                    </button>
+                    
+                    <!-- Ventana Emergente -->
+                    <div class="modal fade" id="ventanaEmergenteAcuatico5" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelAcuatico5" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title tit h1" id="ventanaEmergenteLabelAcuatico5">luminocasea</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                              <span aria-hidden="true">&times;</span>
+                            </button>
+                          </div>
+                          <div class="modal-body">
+                            <div class="container-lg">
+                              <div class="row">
+                                <div class="col-xs-6">
+                                  <img src="img/acuatico/luminocasea.png" alt="Imagen 1" class="img-fluid">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+    
+      </div>
+    </div>    
+ </section>
+ <section id="natural">
+  <div class="container-lg">
+    <div id="accordionNatural">
+      <div class="card">
+        <div class="card-header" id="headingOneNatural">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOneNatural" aria-expanded="true" aria-controls="collapseOneNatural" class="bajo">
+              <p class="desplega tit" ><img src="img/energias/natural.png" alt="" class="energia" > NATURAL <span class="material-symbols-outlined">
+                arrow_drop_down
+                </span></p>
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOneNatural" class="collapse show" aria-labelledby="headingOneNatural" data-parent="#accordionNatural">
+          <div class="card-body">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-2 tm1"><img src="img/natural/rota flora.png" alt="" class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteNatural1">
+                  + Más
+                </button>
+
+                <!-- Ventana Emergente -->
+                <div class="modal fade" id="ventanaEmergenteNatural1" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelNatural1" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelNatural1">rota flor</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/natural/rota flora.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 tm1"><img src="img/natural/lizar queen.png" alt=""class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteNatural2">
+                  + Más
+                </button>
+
+                <!-- Ventana Emergente -->
+                <div class="modal fade" id="ventanaEmergenteNatural2" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelNatural2" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelNatural2">Lizard queen</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/natural/lizar queen.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="col-md-2 tm1"><img src="img/natural/armifera.png" alt="" class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteNatural3">
+                  + Más
+                </button>
+
+                <!-- Ventana Emergente -->
+                <div class="modal fade" id="ventanaEmergenteNatural3" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelNatural3" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelNatural3">armifera</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/natural/armifera.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="col-md-2 tm1"><img src="img/natural/silvant.png" alt="" class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteNatural4">
+                  + Más
+                </button>
+
+                <!-- Ventana Emergente -->
+                <div class="modal fade" id="ventanaEmergenteNatural4" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelNatural4" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelNatural4">silvant</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/natural/silvant.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+              <div class="col-md-2 tm1"><img src="img/natural/sanguitia.png" alt="" class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteNatural5">
+                  + Más
+                </button>
+
+                <!-- Ventana Emergente -->
+                <div class="modal fade" id="ventanaEmergenteNatural5" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelNatural5" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelNatural5">sanguitia</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/natural/sanguitia.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="mineral">
+  <div class="container-lg">
+    <div id="accordionMineral">
+      <div class="card">
+        <div class="card-header" id="headingOneMineral">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOneMineral" aria-expanded="true" aria-controls="collapseOneMineral" class="bajo">
+              <p class="desplega tit"><img src="img/energias/mineral.png" alt="" class="energia"> MINERAL <span class="material-symbols-outlined">
+                arrow_drop_down
+                </span></p>
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOneMineral" class="collapse show" aria-labelledby="headingOneMineral" data-parent="#accordionMineral">
+          <div class="card-body">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-2 tm1"><img src="img/mineral/atmos.png" alt="" class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteMineral1">
+                  + Más
+                </button>
+
+                <!-- Ventana Emergente -->
+                <div class="modal fade" id="ventanaEmergenteMineral1" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelMineral1" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelMineral1">atmos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/mineral/atmos.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Repite el bloque similar para otros elementos -->
+              <div class="col-md-2 tm1"><img src="img/mineral/sandamos.png" alt="" class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteMineral2">
+                  + Más
+                </button>
+
+                <!-- Ventana Emergente -->
+                <div class="modal fade" id="ventanaEmergenteMineral2" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelMineral2" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelMineral2">sandamos</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/mineral/sandamos.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Repite el bloque similar para otros elementos -->
+              <div class="col-md-2 tm1"><img src="img/mineral/voltaria.png" alt="" class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteMineral3">
+                  + Más
+                </button>
+
+                <!-- Ventana Emergente -->
+                <div class="modal fade" id="ventanaEmergenteMineral3" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelMineral3" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelMineral3">voltaria</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/mineral/voltaria.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 tm1"><img src="img/mineral/aceroaptera.png" alt="" class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteMineral4">
+                  + Más
+                </button>
+
+                <!-- Ventana Emergente -->
+                <div class="modal fade" id="ventanaEmergenteMineral4" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelMineral4" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelMineral4">Mineral 4</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/mineral/aceroaptera.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Repite el bloque similar para otros elementos -->
+              <div class="col-md-2 tm1"><img src="img/mineral/sandreaper.png" alt="" class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteMineral5">
+                  + Más
+                </button>
+
+                <!-- Ventana Emergente -->
+                <div class="modal fade" id="ventanaEmergenteMineral5" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelMineral5" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelMineral5">Mineral 5</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/mineral/sandreaper.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="nocturno">
+  <div class="container-lg">
+    <div id="accordionNocturno">
+      <div class="card">
+        <div class="card-header" id="headingOneNocturno">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOneNocturno" aria-expanded="true" aria-controls="collapseOneNocturno" class="bajo">
+              <p class="desplega tit"><img src="img/energias/nocturno.png" alt="" class="energia"> NOCTURNO <span class="material-symbols-outlined">
+                arrow_drop_down
+                </span></p>
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseOneNocturno" class="collapse show" aria-labelledby="headingOneNocturno" data-parent="#accordionNocturno">
+          <div class="card-body">
+            <div class="row d-flex justify-content-center">
+              <div class="col-md-2 tm1"><img src="img/nocturno/menticora.png" alt="" class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteNocturno1">
+                  + Más
+                </button>
+
+                <!-- Ventana Emergente -->
+                <div class="modal fade" id="ventanaEmergenteNocturno1" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelNocturno1" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelNocturno1"> menticora</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/nocturno/menticora.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 tm1"><img src="img/nocturno/ludifero.png" alt="" class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteNocturno2">
+                  + Más
+                </button>
+                <div class="modal fade" id="ventanaEmergenteNocturno2" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelNocturno2" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelNocturno2">ludifero</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/nocturno/ludifero.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 tm1"><img src="img/nocturno/toxperus.png" alt="" class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteNocturno3">
+                  + Más
+                </button>
+
+                <!-- Ventana Emergente -->
+                <div class="modal fade" id="ventanaEmergenteNocturno3" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelNocturno3" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelNocturno3">toxperus</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/nocturno/toxperus.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 tm1"><img src="img/nocturno/hypno spectra.png" alt="" class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteNocturno4">
+                  + Más
+                </button>
+
+                <!-- Ventana Emergente -->
+                <div class="modal fade" id="ventanaEmergenteNocturno4" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelNocturno4" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelNocturno4">hypno spectra</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/nocturno/hypno spectra.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class ="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-2 tm1"><img src="img/nocturno/dramante.png" alt="" class="carta">
+                <button type="button" class="btn btn-primary tito" data-toggle="modal" data-target="#ventanaEmergenteNocturno5">
+                  + Más
+                </button>
+
+                <!-- Ventana Emergente -->
+                <div class="modal fade" id="ventanaEmergenteNocturno5" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelNocturno5" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h5 class="modal-title tit h1" id="ventanaEmergenteLabelNocturno5">dramante</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                          <span aria-hidden="true">&times;</span>
+                        </button>
+                      </div>
+                      <div class="modal-body">
+                        <div class="container-lg">
+                          <div class="row">
+                            <div class="col-xs-6">
+                              <img src="img/nocturno/dramante.png" alt="Imagen 1" class="img-fluid">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</section>
+<section id="trampas">
+  <div class=" medida container-xs align-items-center">
+    <div> <h2 class="tit grande"> Trampas </h2></div> 
+    <div class="spa"></div>
+    <div class="spa"></div>
+
+    <section id="estrellas">
+      <div class="">
+        <div id="accordionEstrellas">
+          <div class="card ">
+            <div class="card-header" id="headingOneEstrellas">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOneEstrellas" aria-expanded="true" aria-controls="collapseOneEstrellas" class="bajo">
+                  <p class="desplega tit"> Estrellas <span class="material-symbols-outlined">
+                    arrow_drop_down
+                    </span> </p>
+                </button>
+              </h5>
+            </div>
+    
+            <div id="collapseOneEstrellas" class="collapse show" aria-labelledby="headingOneEstrellas" data-parent="#accordionEstrellas">
+              <div class="card-body">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-md-3">
+                    <img src="img/trampas/estelas.png" alt="" class="carta separacion">
+                  </div>
+                  <div class="col-md-3">
+                    <img src="img/trampas/panel.png" alt="" class="carta separacion">
+                  </div>
+                  <div class="col-md-3">
+                    <img src="img/trampas/baile de las estrellas.png" alt="" class="carta separacion">
+                  </div>
+                  <div class="col-md-3">
+                    <img src="img/trampas/muerte de una estrellas.png" alt="" class="carta separacion">
+                  </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                  <div class="col-md-3">
+                    <img src="img/trampas/centilifero.png" alt="" class="carta separacion">
+                  </div>
+                  <div class="col-md-3">
+                    <img src="img/trampas/ladron de la luz.png" alt="" class="carta separacion">
+                  </div>
+                  <div class="col-md-3">
+                    <img src="img/trampas/escases.png" alt="" class="carta separacion">
+                  </div>
+                  <div class="col-md-3">
+                    <img src="img/trampas/super nova.png" alt="" class="carta separacion">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="mother">
+      <div class="">
+        <div id="accordionMother">
+          <div class="card separacion2">
+            <div class="card-header" id="headingOneMother">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOneMother" aria-expanded="true" aria-controls="collapseOneMother" class="bajo">
+                  <p class="desplega tit"> Mother <span class="material-symbols-outlined">
+                    arrow_drop_down
+                    </span></p>
+                </button>
+              </h5>
+            </div>
+    
+            <div id="collapseOneMother" class="collapse show" aria-labelledby="headingOneMother" data-parent="#accordionMother">
+              <div class="card-body">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-md-3"><img src="img/trampas/mother.png" alt="" class="carta separacion"></div>
+                  <div class="col-md-3"><img src="img/trampas/daugther.png" alt="" class="carta separacion"></div>
+                  <div class="col-md-3"><img src="img/trampas/vinculos.png" alt="" class="carta separacion"></div>
+                  <div class="col-md-3"><img src="img/trampas/family love.png" alt="" class="carta separacion"></div>
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="objetos">
+      <div class="">
+        <div id="accordionObjetos">
+          <div class="card">
+            <div class="card-header" id="headingOneObjetos">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOneObjetos" aria-expanded="true" aria-controls="collapseOneObjetos" class="bajo">
+                  <p class="desplega tit"> Objetos <span class="material-symbols-outlined">
+                    arrow_drop_down
+                    </span></p>
+                </button>
+              </h5>
+            </div>
+    
+            <div id="collapseOneObjetos" class="collapse show" aria-labelledby="headingOneObjetos" data-parent="#accordionObjetos">
+              <div class="card-body">
+                <div class="row d-flex justify-content-center">
+                  <div class="col-md-3"><img src="img/trampas/reflector.png" alt="" class="carta separacion"></div>
+                  <div class="col-md-3"><img src="img/trampas/direccionador.png" alt="" class="carta separacion"></div>
+                  <div class="col-md-3"><img src="img/trampas/Encantador.png" alt="" class="carta separacion"></div>
+                  <div class="col-md-3"><img src="img/trampas/visor.png" alt="" class="carta separacion"></div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                  <div class="col-md-3"><img src="img/trampas/perla de coralisca.png" alt="" class="carta separacion"></div>
+                  <div class="col-md-3"><img src="img/trampas/pluma de glaceomante.png" alt="" class="carta separacion"></div>
+                  <div class="col-md-3"><img src="img/trampas/Escama de lizard queen.png" alt="" class="carta separacion"></div>
+                  <div class="col-md-3"><img src="img/trampas/perla de thermowhip.png" alt="" class="carta separacion"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</section>
+<section id="energias">
+  <div class="">
+    <h2 class="tit grande"> Energias </h2>
+  
+    <section id="nivelI">
+      <div id="accordionEnergiasNivelI">
+        <div class="card">
+          <div class="card-header" id="headingOneEnergiasNivelI">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOneEnergiasNivelI" aria-expanded="true" aria-controls="collapseOneEnergiasNivelI" class="bajo">
+                <p class="desplega tit"> NIVEL I <span class="material-symbols-outlined">
+                  arrow_drop_down
+                  </span></p>
+              </button>
+            </h5>
+          </div>
+  
+          <div id="collapseOneEnergiasNivelI" class="collapse show" aria-labelledby="headingOneEnergiasNivelI" data-parent="#accordionEnergiasNivelI">
+            <div class="card-body">
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-2 "><img src="img/nivel/energia termica nivel 1.png" alt="" class="carta separacion"></div>
+                <div class="col-md-2 "><img src="img/nivel/energia acuatica nivel 1.png" alt="" class="carta separacion"></div>
+                <div class="col-md-2 "><img src="img/nivel/energia natural nivel 1.png" alt="" class="carta separacion"></div>
+                <div class="col-md-2 "><img src="img/nivel/energia mineral nivel 1.png" alt="" class="carta separacion"></div>
+                <div class="col-md-2 "><img src="img/nivel/energia nocturna nivel 1.png" alt="" class="carta separacion"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="nivelII">
+      <div id="accordionEnergiasNivelII">
+        <div class="card">
+          <div class="card-header" id="headingTwoEnergiasNivelII">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwoEnergiasNivelII" aria-expanded="true" aria-controls="collapseTwoEnergiasNivelII" class="bajo">
+                <p class="desplega tit"> NIVEL II <span class="material-symbols-outlined">
+                  arrow_drop_down
+                  </span></p>
+              </button>
+            </h5>
+          </div>
+  
+          <div id="collapseTwoEnergiasNivelII" class="collapse" aria-labelledby="headingTwoEnergiasNivelII" data-parent="#accordionEnergiasNivelII">
+            <div class="card-body">
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-2 "><img src="img/nivel/energia termica nivel 2.png" alt="" class="carta separacion"></div>
+                <div class="col-md-2 "><img src="img/nivel/energia acuatica nivel 2.png" alt="" class="carta separacion"></div>
+                <div class="col-md-2 "><img src="img/nivel/energia natural nivel 2.png" alt="" class="carta separacion"></div>
+                <div class="col-md-2 "><img src="img/nivel/energia mineral nivel 2.png" alt="" class="carta separacion"></div>
+                <div class="col-md-2 "><img src="img/nivel/energia nocturna nivel 2.png" alt="" class="carta separacion"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <section id="nivelIII">
+      <div id="accordionEnergiasNivelIII">
+        <div class="card">
+          <div class="card-header" id="headingThreeEnergiasNivelIII">
+            <h5 class="mb-0">
+              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThreeEnergiasNivelIII" aria-expanded="true" aria-controls="collapseThreeEnergiasNivelIII" class="bajo">
+                <p class="desplega tit"> NIVEL III <span class="material-symbols-outlined">
+                  arrow_drop_down
+                  </span></p>
+              </button>
+            </h5>
+          </div>
+  
+          <div id="collapseThreeEnergiasNivelIII" class="collapse" aria-labelledby="headingThreeEnergiasNivelIII" data-parent="#accordionEnergiasNivelIII">
+            <div class="card-body">
+              <div class="row d-flex justify-content-center">
+                <div class="col-md-2 "><img src="img/nivel/energia termica nivel 3.png" alt="" class="carta separacion"></div>
+                <div class="col-md-2 "><img src="img/nivel/energia acuatica  nivel 3.png" alt="" class="carta separacion"></div>
+                <div class="col-md-2 "><img src="img/nivel/energia natural  nivel 3.png" alt="" class="carta separacion"></div>
+                <div class="col-md-2 "><img src="img/nivel/energia mineral  nivel 3.png" alt="" class="carta separacion"></div>
+                <div class="col-md-2 "><img src="img/nivel/energia nocturna nivel 3.png" alt="" class="carta separacion"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</section>
+
+</body>
+</html>

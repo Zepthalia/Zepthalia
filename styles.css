@@ -1,0 +1,528 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+@font-face {
+  font-family: 'Tullamore DEMO';
+  src: local('Tullamore DEMO'), url('Tullamore DEMO.otf') format('opentype');
+}
+.tit{
+  font-family: "p22-ruffcut-plain", sans-serif;
+}
+
+body {
+	font-family: "MarkaziText" ;
+	background: #000C16;
+}
+li{
+  list-style: none;
+}
+.navbar {
+  z-index: 2;
+  position: fixed;
+  height: 7%;
+  width: 100%;
+  background-color: rgba(0, 37, 27, 0.65);
+  margin-top: 20px;
+}
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  color: white;
+  background-color: #026043;
+  padding: 20px;
+  
+}
+.logo{
+  height: 60px;
+}
+#myCarousel {
+  z-index: 1;
+}
+
+.carousel-inner {
+  height: 100%;
+}
+
+.dropdown-menu {
+  background-color: rgba(0, 37, 27, 0.65);
+}
+.dropdown-item{
+  color: #d3d3d3;
+}
+.dropdown-item:hover{
+  background-color: #023f2c;
+  color: white;
+}
+.col-2 {
+  position: relative;
+  flex: 0 0 20%;
+  max-width: 20%;
+}
+.columna {
+  height: 400px;
+  margin-bottom: 20px; 
+  margin-top: 2%;
+  color: #000; 
+  text-align: center; 
+  padding: 20px; 
+}
+.baner{
+  margin: 4%;
+  height: 400px; 
+  width: 100%;
+}
+.anuncio{
+  padding: 3rem;
+}
+#termico{
+  margin-top: -5rem;
+}
+.card{
+ 
+  background-color: transparent;
+  margin-top: 5%; 
+}
+.bajo {
+  position: relative;
+}
+
+.card-header{
+  height: 10rem;
+}
+.vid{
+  border: 1px solid #00EAFF; /* Color del borde */
+  border-radius: 10px; /* Borde redondeado */
+  overflow: hidden; /* Ocultar el desbordamiento */
+}
+.desplega{
+ font-size: 3rem;
+ text-decoration: none;
+ color: white;
+}
+
+.btn-link {
+  background-color: transparent;
+  color: transparent;
+}
+.btn-link:hover{
+  color: #023f2c;
+}
+.energia {
+  width: 7rem;
+}
+
+
+.energia p {
+  position: absolute;
+}
+
+.card-body{
+  padding: 0px;
+  margin: 0px;
+}
+
+#collapseOne{
+  margin-top: 0px;
+}
+.carta{
+  width: 100%;
+}
+
+.btn-primary {
+
+  border: none;
+  background-color: #023f2c;
+
+}
+
+.btn-primary:hover {
+  border: none;
+  color: #023f2c;
+  background-color: white;
+}
+.tito{
+  font-family: "p22-ruffcut-plain", sans-serif;
+  position: absolute;
+  width: 80%;
+  top: 120%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2rem;
+}
+
+.modal-dialog {
+  max-width: 800px;
+}
+
+.modal-content {
+  background-color: transparent;
+}
+.modal-header{
+  border: none;
+  color: white;
+  
+  align-items: center;
+}
+.modal-title {
+  font-family: 'Tullamore DEMO', sans-serif;
+text-align: center; 
+margin: 0 auto; 
+margin-left: 17rem;
+font-size: 4rem;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+.modal-footer {
+  border-top: none; 
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+}
+.cierre{
+  background-color: #023f2c;
+  border: none;
+}
+.cierre:hover{
+  background-color: #026043;
+}
+#trampas{
+ display: flex;
+ margin-top: 8rem;
+}
+.grande{
+ text-align: center;
+ font-size: 5rem;
+ color: white;
+}
+.separacion{
+  margin-bottom: 3rem;
+}
+.separacion2{
+  margin-top: 0%;
+}
+#estrellas{
+  margin-top: -5rem;
+}
+.change{
+  position: absolute;
+  margin-left: 70rem;
+  margin-top: 20rem ;
+}
+.overlay-section {
+  height: 400px;
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.center{
+  text-align: center;
+  padding: 5rem;
+  padding-top: 0px;
+  font-size: 16pt;
+  font-weight: 400;
+  color: white;
+}
+.bato{
+  display: flex;
+}
+.acomodo{
+  align-self: center;
+}
+.page-banner {
+  background: url('img/baner prendido.png') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  transition: background-image 0.5s ease;
+}
+
+#candle {
+  width: 100px; 
+  height: 200px; 
+  margin-left: 27%;
+  margin-top: 5%;
+
+position: absolute;
+}
+
+#candle:hover + .page-banner {
+  background-image: url('img/baner libro apagado.png');
+}
+.overlay-section .btn-primary {
+  margin-top: -7rem; 
+  width: 10rem;
+}
+
+.overlay-section .btn-primary .tit {
+  font-size: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.tamaño{
+  width: 7rem;
+}
+.parrafo{
+  font-size: 16pt;
+  color: white;
+  display: inline;
+  text-shadow: #000C16;
+}
+.separacion3{
+  margin-bottom: 8rem;
+}
+.tita{
+  font-family: 'Tullamore DEMO', sans-serif;
+  position: absolute;
+  width: 80%;
+  top: 110%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2rem;
+}
+.paquete {
+  position: relative;
+}
+
+.paquete::before {
+  content: '';
+  background-image: url('img/producto/refelector.png'); /* Ruta de la nueva imagen */
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0; 
+  pointer-events: none; 
+  transition: opacity 0.5s ease;
+}
+.pop{
+  width: 80%;
+}
+.paquete:hover::before {
+  opacity: 0.5; 
+}
+.link{
+  font-style: none;
+  color: white;
+}
+.link:hover{
+  font-style: none;
+  color: #023f2c;
+}
+.logos{
+height: 5rem;
+margin: 2rem;
+}
+.image{
+  width: 100%;
+}
+
+.med{
+ text-align: center;
+ font-size: 3rem;
+ color: #026043;
+}
+.perre{
+  font-size: 14pt;
+  color: white;
+  text-shadow: #000C16; 
+}
+.parra{
+  font-size: 14pt;
+  color: white;
+  display: inline;
+  text-shadow: #000C16; 
+}
+.purru{
+  display: flex;
+}
+.pirri{
+  display: flex;
+}
+.centro{
+  justify-content: center;
+  align-items: center;
+    text-align: center; 
+}
+.verde{
+  color: #026043;
+  font-weight: bolder;
+}
+
+.anuncio {
+
+  height: auto; 
+}
+
+.boton {
+  content: url('img/boton 1.png');
+  position: absolute;
+  height: 10%;
+  top: 72%; 
+  left: 65%; 
+  transform: translate(-50%, -50%);
+  transition: 0.5s ease;
+}
+.boton:hover {
+  content: url('img/boton 2.png');
+}
+.margen1{
+  margin-bottom: 1000px;
+}
+.medida{
+  width: 100rem;
+}
+#trampas {
+  display: flex;
+  margin-top: 8rem;
+  justify-content: center;
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 3rem;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+}
+.spa{
+height: 0px;
+}
+.spa2{
+  width: 200px; 
+  height: 20px; 
+}
+@media (max-width:2000px){
+  .col-xs-6{
+    height: 120vh; 
+   }
+}
+@media (max-width:600px){
+
+  .logo {
+    height: 2rem;
+}
+.anuncio {
+  padding: 1rem;
+}
+.grande{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+ }
+.med{
+  text-align: center;
+  font-size: 3rem;
+  color: #026043;
+  padding:0px;
+ }
+ .cont-parra{
+  margin: 2rem;
+ }
+
+ .pop{
+  width: 100%;
+}
+
+.carta{
+  width: 100%;
+}
+.espa{
+ margin-bottom:2rem; 
+}
+.spa{
+  width: 200px; 
+  height: 30px; 
+  }
+  .card-body{
+    padding: 0px;
+    margin: 1rem;
+  }
+  
+.tm1{
+  height: 73vh; 
+}
+.tito{
+  font-family: 'Tullamore DEMO', sans-serif;
+
+  width: 80%;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2rem;
+}
+#trampas{
+  display: flex;
+  margin-top: 0rem;
+ }
+
+ .col-xs-6{
+  height: 65vh; 
+ }
+ .modal-title {
+  font-family: 'Tullamore DEMO', sans-serif;
+text-align: center; 
+margin: 0 auto; 
+margin-left: 1rem;
+font-size: 4rem;
+}
+.paquete {
+  position: relative;
+  height: 75vh; 
+
+}
+.tita{
+  font-family: 'Tullamore DEMO', sans-serif;
+
+  width: 80%;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 2rem;
+}
+.co5{
+width: 75vh;
+}
+
+}
+
+@media (max-width:380px){
+  .tm1{
+    height: 88vh; 
+  }
+  .col-xs-6{
+    height: 80vh; 
+   }
+}
+@media (max-width:360px){
+  .tm1{
+    height: 75vh; 
+  }
+  .col-xs-6{
+    height: 70vh; 
+   }
+
+}

@@ -1,0 +1,49 @@
+#menu {
+    width: 200px;
+    height: 200px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  #menu li {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border: 1px solid black;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  #menu li.selected {
+    z-index: 100;
+  }
+  #menu li:nth-child(1) {
+    transform: rotate(0deg) translate(100px, -100px);
+    background-image: url("img/energias/termica.png");
+  }
+  #menu li:nth-child(2) {
+    transform: rotate(72deg) translate(100px, -100px);
+    background-image: url("img/energias/termica.png");
+  }
+  #menu li:nth-child(3) {
+    transform: rotate(144deg) translate(100px, -100px);
+    background-image: url("img/energias/termica.png");
+  }
+  #menu li:nth-child(4) {
+    transform: rotate(216deg) translate(100px, -100px);
+    background-image: url("img/energias/termica.png");
+  }
+  #menu li:nth-child(5) {
+    transform: rotate(288deg) translate(100px, -100px);
+    background-image: url("img/energias/termica.png");
+  }
+  #central-column {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #central-column img {
+    width: 150px;
+    height: 150px;
+  }

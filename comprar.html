@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zepthalia</title>
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://use.typekit.net/zjd4exk.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="zepthalia.html">
+      <img class="logo" src="img/log.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon">
+
+<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="white" class="bi bi-list" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+</svg>
+      </span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              ¿como se juega?
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="jugar.html">¿cómo jugar? </a>
+              <a class="dropdown-item" href="jugar.html#cartas">Personajes y Habilidades </a>
+              <a class="dropdown-item" href="jugar.html#Trampas">Trampas</a>
+              <a class="dropdown-item" href="jugar.html#Energias">Energias</a>
+              <a class="dropdown-item" href="jugar.html#efectos">Efectos</a>
+              <a class="dropdown-item" href="jugar.html#Reglas">Reglas</a>
+              <a class="dropdown-item" href="jugar.html#tablero">Tablero</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="cartas.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              cartas
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown2">
+              <a class="dropdown-item" href="cartas.html#personajes">Personajes</a>
+              <a class="dropdown-item" href="cartas.html#trampas">Trampas</a>
+              <a class="dropdown-item" href="cartas.html#energias">Energías</a>
+            </div>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Diario.html">Diario del explorador</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="comprar.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            comprar
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="comprar.html">Paquetes</a>
+            <a class="dropdown-item" href="#">Apoyanos</a>
+            <a class="dropdown-item" href="#">Contactanos</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <section>
+       <div class="container">
+        <div class="card-body">
+          <div> <h2 class="tit grande"> Paquetes </h2></div>
+            <div class="row d-flex justify-content-center separacion3">
+                <div class="col-md-3 paquete"><img src="img/producto/paquete basico.png" alt="" class="carta ">
+                  <button type="button" class="btn btn-primary tita" data-toggle="modal" data-target="#ventanaEmergenteTermico1">
+                    Detalles
+                  </button>
+                  <!-- Ventana Emergente -->
+                  <div class="modal fade" id="ventanaEmergenteTermico1" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteLabelTermico1" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title tit h1" id="ventanaEmergenteLabelTermico1">Paquete basico</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-xs-8">
+                                <img src="img/producto/cartas.png" alt="Imagen 1" class="img-fluid">
+                              </div>
+                              <div class="col-xs-4 co5">
+                                <p class="tit desplega">Contiene</p>
+                                <p class="parrafo">10 cartas</p>
+                                <ul>
+                                   <li class="parrafo"><p>1-3 Personajes con sus habilidades</p></li>
+                                   <li class="parrafo"><p>2-4 Energias </p> </li> 
+                                   <li class="parrafo"><p>1-3 trampas </p> </li>  
+                                   <li>  <button type="button" class="btn btn-primary tit tamaño " data-toggle="modal" data-target="">
+                                    <p class="h2"> comprar </p>
+                                  </button> </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                      
+                </div>
+                <div class="col-md-3 paquete"><img src="img/producto/paquete estela2.png" alt="" class="carta">
+                  <button type="button" class="btn btn-primary tita" data-toggle="modal" data-target="#ventanaEmergenteStela">
+                    Detalles
+                  </button>
+                  <!-- Ventana Emergente -->
+                  <div class="modal fade" id="ventanaEmergenteStela" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteStela" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title tit h1" id="ventanaEmergenteLabelStela">Estelas</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-xs-8">
+                                <img src="img/producto/cartas estelas.png" alt="" class="carta">
+                              </div>
+                              <div class="col-xs-4 co5 ">
+                                <p class="tit desplega">Contiene</p>
+                                <p class="parrafo">10 cartas</p>
+                                <ul>
+                                   <li class="parrafo"><p>4 trampas relacionadas a las estelas</p></li>
+                                   <li class="parrafo"><p>2-4 Energias </p> </li> 
+                                   <li class="parrafo"><p>2-4 trampas </p> </li>  
+                                   <li>  <button type="button" class="btn btn-primary tit tamaño " data-toggle="modal" data-target="">
+                                    <p class="h2"> comprar </p>
+                                  </button> </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                      
+                </div> 
+                <div class="col-md-3 paquete"><img src="img/producto/paquete energias2.png" alt="" class="carta ">
+                  <button type="button" class="btn btn-primary tita" data-toggle="modal" data-target="#ventanaEmergenteNergia">
+                    Detalles
+                  </button>
+                  <!-- Ventana Emergente -->
+                  <div class="modal fade" id="ventanaEmergenteNergia" tabindex="-1" role="dialog" aria-labelledby="ventanaEmergenteNergia" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title tit h1" id="ventanaEmergenteLabelNergia">Paquete energias</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <div class="container">
+                            <div class="row">
+                              <div class="col-xs-8">
+                                <img src="img/producto/cartas energias.png" alt="" class="carta">
+                              </div>
+                              <div class="col-xs-4 co5 ">
+                                <p class="tit desplega">Contiene</p>
+                                <p class="parrafo">10 cartas</p>
+                                <ul>
+                                   <li class="parrafo"><p>10 Energias surtidas </p> </li> 
+                                   <li>  <button type="button" class="btn btn-primary tit tamaño " data-toggle="modal" data-target="">
+                                    <p class="h2"> comprar </p>
+                                  </button> </li>
+                                </ul>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary cierre" data-dismiss="modal">Cerrar</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>                      
+                </div> 
+                                     
+             
+              </div>
+          </div>
+       </div>
+       <section id="Apoyo">
+        <div> <h2 class="tit grande"> Apoyanos y Contactanos </h2></div>
+        <div class="row d-flex justify-content-center">
+          <a href="https://www.tiktok.com/@zepthalia?is_from_webapp=1&sender_device=pc">
+            <img class="logos" src="img/logos/tiktok.jpg" alt="Patreon Logo" class="patreonLogo">
+        </a>
+          <a href="https://patreon.com/Zepthalia?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink">
+            <img class="logos" src="img/logos/patreon.png" alt="Patreon Logo" class="patreonLogo">
+        </a>
+        <a href="https://twitter.com/zepthalia">
+          <img class="logos" src="img/logos/x.png" alt="Patreon Logo" class="patreonLogo">
+      </a>
+      <a href="https://www.instagram.com/zepthalia/">
+       <img class="logos" src="img/logos/instagram.png" alt="Patreon Logo" class="patreonLogo">
+      </a>
+        </div>
+        <div class="row d-flex justify-content-center">
+          <p class="center"> Si tienes alguna duda, puedes contactarnos a través de "x" o a zepthaliana@gmail.com.  </p>
+        </div>
+       </section>
+  </section>
+
+</html>
